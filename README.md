@@ -54,11 +54,6 @@ Some randomness is introduced in certain aspects of the code, such as partial ch
 ```
 python train_3D_continuation.py \\
 ```
-#### Testing on subsets of the LUNA16 dataset
-To view the results of cross-validation, you need to adjust the model path and the parameters for the corresponding validation subset yourself.
-```
-test_Luna_wms.py \\
-```
 
 ### Requirements
 
