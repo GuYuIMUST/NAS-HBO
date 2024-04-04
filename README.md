@@ -1,6 +1,6 @@
 # 3DS-DARTS
 ## Introduction
-**Three-Dimensional Stable Differentiable Architecture Search for Pulmonary Nodule Classification** 
+**A Novel High-precision Bilevel Optimization Method for 3D Pulmonary Nodule Classification** 
 
 Sorry, the paper is currently under review. Once the paper is published, we will release the code.
 ## Results
