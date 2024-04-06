@@ -1,11 +1,11 @@
-# 3DS-DARTS
+# NAS-HBO
 ## Introduction
 **A Novel High-precision Bilevel Optimization Method for 3D Pulmonary Nodule Classification** 
 
 Sorry, the paper is currently under review. Once the paper is published, we will release the code.
 ## Results
 
-### 3DS-DARTS
+### NAS-HBO
 
 | model               | Accu.       | Sens. | Spec. | F1 Score | para.(M)    |
 | ------------------- | ----------- | ----- | ----- | -------- | ----------- |
