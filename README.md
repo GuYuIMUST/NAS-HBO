@@ -15,7 +15,7 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 | DeepLung            | 90.44       | 81.42 | -     | -        | 141.57      |
 | AE-DPN              | 90.24       | 92.04 | 88.94 | 90.45    | 678.69      |
 | NASLung             | 90.77       | 85.37 | 95.04 | 89.29    | 16.84       |
-| **3DS-DARTS(ours)** | **91.51(top)** | 90.32(second) | 91.82(second) | 89.46(second) | **12.79(top)** |
+| **NAS-HBO(ours)** | **91.51(top)** | 90.32(second) | 91.82(second) | 89.46(second) | **12.79(top)** |
 
 ### Verification results
 
