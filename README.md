@@ -12,6 +12,7 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 | Multi-crop CNN      | 87.14       | -     | -     | -        | -           |
 | Nodule-level 2D CNN | 87.30       | 88.50 | 86.00 | 87.23    | -           |
 | Vanilla 3D CNN      | 87.40       | 89.40 | 85.20 | 87.25    | -           |
+| ADNN                | 90.11       | -     | -     | -        | -           |
 | DeepLung            | 90.44       | 81.42 | -     | -        | 141.57      |
 | AE-DPN              | 90.24       | 92.04 | 88.94 | 90.45    | 678.69      |
 | NASLung             | 90.77       | 85.37 | 95.04 | 89.29    | 16.84       |
