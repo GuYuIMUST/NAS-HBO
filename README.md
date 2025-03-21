@@ -1,8 +1,33 @@
 # NAS-HBO
-## Introduction
-**A Novel High-precision Bilevel Optimization Method for 3D Pulmonary Nodule Classification** 
 
-Sorry, the paper is currently under review. Once the paper is published, we will release the code.
+> A Novel High-precision Bilevel Optimization Method for 3D Pulmonary Nodule Classification
+>
+> M. Wang, Y. Gu, L. Yang, B. Zhang, J. Wang, X. Lu, J. Li, X. Liu, Y. Zhao, D. Yu, S. Tang, Q. He, A novel high-precision bilevel optimization method for 3D pulmonary nodule classification, Physica Medica, 133 (2025) 104954.
+>
+> ```latex
+> @article{WANG2025104954,
+> title = {A novel high-precision bilevel optimization method for 3D pulmonary nodule classification},
+> journal = {Physica Medica},
+> volume = {133},
+> pages = {104954},
+> year = {2025},
+> issn = {1120-1797},
+> doi = {https://doi.org/10.1016/j.ejmp.2025.104954},
+> url = {https://www.sciencedirect.com/science/article/pii/S112017972500064X},
+> author = {Mansheng Wang and Yu Gu and Lidong Yang and Baohua Zhang and Jing Wang and Xiaoqi Lu and Jianjun Li and Xin Liu and Ying Zhao and Dahua Yu and Siyuan Tang and Qun He},
+> }
+> ```
+>
+> [[Paper@PM]](https://www.sciencedirect.com/science/article/pii/S112017972500064X)  [[Code@Github]](https://github.com/GuYuIMUST/NAS-HBO)
+
+## **Introduction**
+
+Classification of pulmonary nodules is important for the early diagnosis of lung cancer; however, the manual design of classification models requires substantial expert effort. To automate the model design process, we propose a neural architecture search with high-precision bilevel optimization (NAS-HBO) that directly searches for the optimal network on three-dimensional (3D) images.
+
+## Methods
+
+We propose a novel high-precision bilevel optimization method (HBOM) to search for an optimal 3D pulmonary nodule classification model. We employed memory optimization techniques with a partially decoupled operation-weighting method to reduce the memory overhead while maintaining path selection stability. Additionally, we introduce a novel maintaining receptive field criterion (MRFC) within the NAS-HBO framework. MRFC narrows the search space by selecting and expanding the 3D Mobile Inverted Residual Bottleneck Block (3D-MBconv) operation based on previous receptive fields, thereby enhancing the scalability and practical application capabilities of NAS-HBO in terms of model complexity and performance.
+
 ## Results
 
 ### NAS-HBO
@@ -12,11 +37,11 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 | Multi-crop CNN      | 87.14       | -     | -     | -        | -           |
 | Nodule-level 2D CNN | 87.30       | 88.50 | 86.00 | 87.23    | -           |
 | Vanilla 3D CNN      | 87.40       | 89.40 | 85.20 | 87.25    | -           |
-| ADNN                | 90.11       | -     | -     | -        | -           |
-| DeepLung            | 90.44       | 81.42 | -     | -        | 141.57      |
+| ADNN      | 90.11       | - | - | -    | -           |
+| DeepLung            | 90.44       | - | -     | -        | 141.57      |
 | AE-DPN              | 90.24       | 92.04 | 88.94 | 90.45    | 678.69      |
 | NASLung             | 90.77       | 85.37 | 95.04 | 89.29    | 16.84       |
-| NAS-qa              | 90.85       | 86.04 | 91.02 | 88.89    | -           |
+| NAS-qa             | 90.85       | 86.04 | 91.02 | 88.89    | -       |
 | **NAS-HBO(ours)** | **91.51(top)** | 90.32(second) | 91.82(second) | 89.46(second) | **12.79(top)** |
 
 ### Verification results
@@ -91,3 +116,7 @@ If there are any missing citations, please contact us. It is an unintentional om
 - P.-T. Jiang, C.-B. Zhang, Q. Hou, M.-M. Cheng, Y. Wei, Layercam: Exploring hierarchical class activation maps for localization, IEEE Transactions on Image Processing, 30 (2021) 5875-5888.
 
 - Cai, H., Zhu, L., & Han, S. (2018). Proxylessnas: Direct neural architecture search on target task and hardware. arXiv preprint arXiv:1812.00332.
+
+  
+
+
